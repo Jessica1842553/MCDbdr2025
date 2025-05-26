@@ -4,6 +4,6 @@
 
 #### Bases de Datos Relacionales
 
-Repositorio para la matería BDR. 
+Repositorio para la matería BDR.
 
-- [Practica](Practica1/inv.md)
+- [Practica Clase](PracticaC/inv.md)
