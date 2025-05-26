@@ -11,3 +11,7 @@
 _cursiva_, **negrita**
 
 Agregar link [google](https://google.com)
+
+SI
+NO
+OKAY
