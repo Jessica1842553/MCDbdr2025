@@ -6,4 +6,4 @@
 
 Repositorio para la matería BDR. 
 
-- [Tarea 1](Tarea1/inv.md)
+- [Practica](Practica1/inv.md)
