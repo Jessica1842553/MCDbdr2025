@@ -8,7 +8,7 @@
 
 **_Software que permite administrar una base de datos._**
 
-Proporciona el método de organización necesario para el almacenamiento y recuperación flexible de grandes cantidades de datos. Esto significa que mediante este programa se puede utilizar, configurar y extraer información almacenada. [<sup>[1]</sup>](https://es.wikipedia.org/wiki/Sistema_de_gesti%C3%B3n_de_bases_de_datos)
+Proporciona el método de organización necesario para el almacenamiento y recuperación flexible de grandes cantidades de datos.  Esto significa que mediante este programa se puede utilizar, configurar y extraer información almacenada. [<sup>[1]</sup>](https://es.wikipedia.org/wiki/Sistema_de_gesti%C3%B3n_de_bases_de_datos)
 
 _- Componentes de un SGBD:_
 
@@ -19,7 +19,7 @@ Los elementos básicos que lo conforman son tres: el diccionario de datos, el le
 - Lenguaje de manipulación de datos: mediante el lenguaje de manipulación de datos o DML (data manipulation language), se pueden introducir nuevos registros en la base de datos, así como eliminar, modificar y consultar los que ya contiene. Este lenguaje también permite comprimir y extraer los datos.
 
 ## DuckDB
-Es un Sistema de Gestión de Bases de Datos Relacionales (SGBDR) de código abierto y orientado a columnas. 
+Es un Sistema de Gestión de Bases de Datos Relacionales (SGBDR) de código abierto y orientado a columnas.  
 Esto significa que es un sistema para gestionar datos almacenados en relaciones. Una relación es esencialmente un término matemático para una tabla.
 
 Cada tabla es una colección de filas con nombre. Cada fila de una tabla dada tiene el mismo conjunto de columnas con nombre, y cada columna pertenece a un tipo de dato específico. Las tablas se almacenan dentro de esquemas, y una colección de esquemas constituye la base de datos completa a la que se puede acceder. [<sup>[3]</sup>](https://duckdb.org/docs/stable/sql/introduction.html)
@@ -32,4 +32,11 @@ Cada tabla es una colección de filas con nombre. Cada fila de una tabla dada ti
 
 **_Observaciones:_**
 
-DuckDB, no compite con los sistemas de gestión de bases de datos tradicionales como MSSQL, PostgreSQL y Oracle Database. Si bien utiliza SQL para consultas, DuckDB se dirige a aplicaciones sin servidor y proporciona respuestas extremadamente rápidas utilizando archivos Apache Parquet o su propio formato de almacenamiento. Estas características lo convierten en una opción popular para el análisis interactivo de grandes conjuntos de datos. [<sup>[4]</sup>](https://en.wikipedia.org/wiki/DuckDB)
+DuckDB, no compite con los sistemas de gestión de bases de datos tradicionales como MSSQL, PostgreSQL y Oracle Database.Si bien utiliza SQL para consultas, DuckDB se dirige a aplicaciones sin servidor y proporciona respuestas extremadamente rápidas utilizando archivos Apache Parquet o su propio formato de almacenamiento. Estas características lo convierten en una opción popular para el análisis interactivo de grandes conjuntos de datos. [<sup>[4]</sup>](https://en.wikipedia.org/wiki/DuckDB)
+
+
+### **Referencias**
+[<sup>[1]</sup>](https://es.wikipedia.org/wiki/Sistema_de_gesti%C3%B3n_de_bases_de_datos) INFO  
+[<sup>[2]</sup>](https://www.ionos.mx/digitalguide/hosting/cuestiones-tecnicas/sistema-gestor-de-base-de-datos-sgbd/#c221916) «Introducción al sistema gestor de base de datos (SGBD)». IONOS Digitalguide.  
+[<sup>[3]</sup>](https://en.wikipedia.org/wiki/DuckDB) INFO  
+[<sup>[4]</sup>](https://duckdb.org/docs/stable/sql/introduction.html) "Documentación de DuckDB: Introducción a SQL" .
