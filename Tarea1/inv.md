@@ -1,5 +1,19 @@
+# Atención Médica como BD no estructurada: 
 
+- Notas clínicas y reportes médicos:
+Texto libre con observaciones, síntomas, diagnósticos, evolución, tratamientos, y comentarios de médicos y enfermeros.
 
+- Grabaciones de audio:
+Entrevistas, dictados o llamadas con pacientes que pueden contener información valiosa sobre el estado de salud o adherencia al tratamiento.
+
+- Imágenes médicas:
+Radiografías, resonancias, ecografías y otras imágenes que muestran condiciones físicas.
+
+- Videos clínicos:
+Grabaciones de procedimientos o exámenes físicos que aportan información adicional sobre la condición del paciente.
+
+- Mensajes y chats internos:
+Comunicaciones entre profesionales de salud sobre el estado del paciente, coordinación de cuidados o decisiones clínicas.
 
 # Sistema de Gestión de Bases de Datos (SGBD) 
 
@@ -7,13 +21,13 @@
 
 Proporciona el método de organización necesario para el almacenamiento y recuperación flexible de grandes cantidades de datos.  Esto significa que mediante este programa se puede utilizar, configurar y extraer información almacenada. [<sup>[1]</sup>](https://es.wikipedia.org/wiki/Sistema_de_gesti%C3%B3n_de_bases_de_datos)
 
-_- Componentes de un SGBD:_
+**_- Componentes de un SGBD:_**
 
 Los elementos básicos que lo conforman son tres: el diccionario de datos, el lenguaje de definición de datos y el lenguaje de manipulación de datos. [<sup>[2]</sup>](https://www.ionos.mx/digitalguide/hosting/cuestiones-tecnicas/sistema-gestor-de-base-de-datos-sgbd/#c221916)
 
-- Diccionario de datos: consiste en una lista de metadatos que reflejan las características de los diversos tipos de datos incluidos en la base de datos. Además, estos metadatos informan sobre los permisos de uso de cada registro y su representación física. 
-- Lenguaje de definición de datos: el lenguaje de definición de datos, también llamado lenguaje de base de datos o DDL (data definition language), sirve para estructurar el contenido de la base de datos. Gracias a este lenguaje, es posible crear, modificar y eliminar objetos individuales, como referencias, relaciones o derechos de usuario.
-- Lenguaje de manipulación de datos: mediante el lenguaje de manipulación de datos o DML (data manipulation language), se pueden introducir nuevos registros en la base de datos, así como eliminar, modificar y consultar los que ya contiene. Este lenguaje también permite comprimir y extraer los datos.
+- _Diccionario de datos:_ Consiste en una lista de metadatos que reflejan las características de los diversos tipos de datos incluidos en la base de datos. Además, estos metadatos informan sobre los permisos de uso de cada registro y su representación física. 
+- _Lenguaje de definición de datos:_ El lenguaje de definición de datos, también llamado lenguaje de base de datos o DDL (data definition language), sirve para estructurar el contenido de la base de datos. Gracias a este lenguaje, es posible crear, modificar y eliminar objetos individuales, como referencias, relaciones o derechos de usuario.
+- _Lenguaje de manipulación de datos:_ Mediante el lenguaje de manipulación de datos o DML (data manipulation language), se pueden introducir nuevos registros en la base de datos, así como eliminar, modificar y consultar los que ya contiene. Este lenguaje también permite comprimir y extraer los datos.
 
 ## DuckDB
 Es un Sistema de Gestión de Bases de Datos Relacionales (SGBDR) de código abierto y orientado a columnas.  
@@ -32,8 +46,9 @@ Cada tabla es una colección de filas con nombre. Cada fila de una tabla dada ti
 DuckDB, no compite con los sistemas de gestión de bases de datos tradicionales como MSSQL, PostgreSQL y Oracle Database.Si bien utiliza SQL para consultas, DuckDB se dirige a aplicaciones sin servidor y proporciona respuestas extremadamente rápidas utilizando archivos Apache Parquet o su propio formato de almacenamiento. Estas características lo convierten en una opción popular para el análisis interactivo de grandes conjuntos de datos. [<sup>[4]</sup>](https://en.wikipedia.org/wiki/DuckDB)
 
 
+##
 ### **Referencias**
-[<sup>[1]</sup>](https://es.wikipedia.org/wiki/Sistema_de_gesti%C3%B3n_de_bases_de_datos) INFO  
+[<sup>[1]</sup>](https://es.wikipedia.org/wiki/Sistema_de_gesti%C3%B3n_de_bases_de_datos)  «Sistema de gestion de base de datos». Wikipedia, The Free Encyclopedia.   
 [<sup>[2]</sup>](https://www.ionos.mx/digitalguide/hosting/cuestiones-tecnicas/sistema-gestor-de-base-de-datos-sgbd/#c221916) «Introducción al sistema gestor de base de datos (SGBD)». IONOS Digitalguide.  
-[<sup>[3]</sup>](https://en.wikipedia.org/wiki/DuckDB) INFO  
-[<sup>[4]</sup>](https://duckdb.org/docs/stable/sql/introduction.html) "Documentación de DuckDB: Introducción a SQL" .
+[<sup>[3]</sup>](https://en.wikipedia.org/wiki/DuckDB) «DuckDB». Wikipedia, The Free Encyclopedia.  
+[<sup>[4]</sup>](https://duckdb.org/docs/stable/sql/introduction.html) "Documentación de DuckDB: Introducción a SQL" . / «SQL introduction». DuckDB.
