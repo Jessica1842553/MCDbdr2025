@@ -43,7 +43,7 @@ Cada tabla es una colección de filas con nombre. Cada fila de una tabla dada ti
 
 **_Observaciones:_**
 
-DuckDB, no compite con los sistemas de gestión de bases de datos tradicionales como MSSQL, PostgreSQL y Oracle Database.Si bien utiliza SQL para consultas, DuckDB se dirige a aplicaciones sin servidor y proporciona respuestas extremadamente rápidas utilizando archivos Apache Parquet o su propio formato de almacenamiento. Estas características lo convierten en una opción popular para el análisis interactivo de grandes conjuntos de datos. [<sup>[4]</sup>](https://en.wikipedia.org/wiki/DuckDB)
+DuckDB, no compite con los sistemas de gestión de bases de datos tradicionales como MSSQL, PostgreSQL y Oracle Database. Si bien utiliza SQL para consultas, DuckDB se dirige a aplicaciones sin servidor y proporciona respuestas extremadamente rápidas utilizando archivos Apache Parquet o su propio formato de almacenamiento. Estas características lo convierten en una opción popular para el análisis interactivo de grandes conjuntos de datos. [<sup>[4]</sup>](https://en.wikipedia.org/wiki/DuckDB)
 
 
 ##
