@@ -1,6 +1,3 @@
-# Cine como BD no estructurada
-
-
 
 
 
