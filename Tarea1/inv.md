@@ -1,18 +1,18 @@
 # Atención Médica como BD no estructurada: 
 
-- Notas clínicas y reportes médicos:
+- **Notas clínicas y reportes médicos:**
 Texto libre con observaciones, síntomas, diagnósticos, evolución, tratamientos, y comentarios de médicos y enfermeros.
 
-- Grabaciones de audio:
+- **Grabaciones de audio:**
 Entrevistas, dictados o llamadas con pacientes que pueden contener información valiosa sobre el estado de salud o adherencia al tratamiento.
 
-- Imágenes médicas:
+- **Imágenes médicas:**
 Radiografías, resonancias, ecografías y otras imágenes que muestran condiciones físicas.
 
-- Videos clínicos:
+- **Videos clínicos:**
 Grabaciones de procedimientos o exámenes físicos que aportan información adicional sobre la condición del paciente.
 
-- Mensajes y chats internos:
+- **Mensajes y chats internos:**
 Comunicaciones entre profesionales de salud sobre el estado del paciente, coordinación de cuidados o decisiones clínicas.
 
 # Sistema de Gestión de Bases de Datos (SGBD) 
