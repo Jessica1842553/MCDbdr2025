@@ -1,17 +1,24 @@
 # BD no estructurada - Tienda en línea: 
 
 **Base de datos para una tienda en línea.**  
-La base/conjunto de datos a utilizar contiene transacciones ocurridas entre 2009-2011 para una tienda en línea en Reino Unido. Incluye información detallada sobre los productos vendidos, cantidades, precios, fechas y códigos de cliente.
+La base de datos contiene información de ventas de una tienda, cada vez que un cliente hace un pedido, se genera un registro con los productos comprados, cantidades, descuentos aplicados, ganancias obtenidas, y detalles de envío. El pedido tiene un identificador único, está asociado a un cliente, y se despacha en una fecha determinada.
 
-**_- Características clave:_**  
-- <u>Factura</u>: Número de factura de venta. (Texto alfanúmerico)
-- <u>Código de producto</u>: Identificador único del producto. (Texto alfanúmerico)
-- <u>Descripción</u>: Descripción del producto. (Texto)
-- <u>Cantidad</u>: Número de unidades vendidas. (Entero)
-- <u>Precio unitario</u>: Precio por unidad en libras esterlinas. (Número decimal)
-- <u>Fecha</u>: Fecha de la transacción. (Fecha y hora)
-- <u>Código de cliente</u>: Identificador del cliente. (Entero)
-- <u>País</u>: País del cliente. (Texto alfanúmerico)
+Los productos tienen un nombre, categoría y subcategoría. Los clientes están clasificados en segmentos y tienen una ubicación asociada (ciudad, estado, código postal y país).
+
+**_- Características de los datos:_**  
+- <u>Order</u>: Identificador del pedido. (Texto alfanúmerico)
+- <u>Order/Ship Date</u>: Fecha en que se realizó y envío del pedido. (Fecha)
+- <u>Customer ID, Name</u>: Nombre e identificador único del cliente. (Texto alfanúmerico)
+- <u>Country, City, State, Postal Code</u>. (Texto alfanúmerico, Entero)
+- <u>Product ID/Name, Category, Sub-Category</u>: Nombre e identificador único del producto, Categoría y Sub-categoría. (Texto alfanúmerico)
+- <u>Sales, Discount, Profit</u>: Valor monetario total de la venta, Porcentaje de descuento aplicado, Ganancia neta obtenida. (Número decimal)
+- <u>Quantity</u>: Cantidad vendida. (Entero)
+
+**_- Relaciones implícitas:_**
+- Un cliente puede tener múltiples pedidos.
+- Cada pedido puede contener varios productos (una línea por producto).
+- Cada producto tiene una categoría y subcategoría.
+- Los datos de ubicación están incluidos con cada pedido.
 
 # Sistema de Gestión de Bases de Datos (SGBD) 
 
