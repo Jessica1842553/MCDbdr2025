@@ -1,19 +1,17 @@
-# Atención Médica como BD no estructurada: 
+# BD no estructurada - Tienda en línea: 
 
-- **Notas clínicas y reportes médicos:**
-Texto libre con observaciones, síntomas, diagnósticos, evolución, tratamientos, y comentarios de médicos y enfermeros.
+**Base de datos para una tienda en línea.**  
+La base/conjunto de datos a utilizar contiene transacciones ocurridas entre 2009-2011 para una tienda en línea en Reino Unido. Incluye información detallada sobre los productos vendidos, cantidades, precios, fechas y códigos de cliente.
 
-- **Grabaciones de audio:**
-Entrevistas, dictados o llamadas con pacientes que pueden contener información valiosa sobre el estado de salud o adherencia al tratamiento.
-
-- **Imágenes médicas:**
-Radiografías, resonancias, ecografías y otras imágenes que muestran condiciones físicas.
-
-- **Videos clínicos:**
-Grabaciones de procedimientos o exámenes físicos que aportan información adicional sobre la condición del paciente.
-
-- **Mensajes y chats internos:**
-Comunicaciones entre profesionales de salud sobre el estado del paciente, coordinación de cuidados o decisiones clínicas.
+**_- Características clave:_**  
+- <u>Factura</u>: Número de factura de venta. (Texto alfanúmerico)
+- <u>Código de producto<u>: Identificador único del producto. (Texto alfanúmerico)
+- <u>Descripción<u>: Descripción del producto. (Texto)
+- <u>Cantidad<u>: Número de unidades vendidas. (Entero)
+- <u>Precio unitario<u>: Precio por unidad en libras esterlinas. (Número decimal)
+- <u>Fecha<u>: Fecha de la transacción. (Fecha y hora)
+- <u>Código de cliente<u>: Identificador del cliente. (Entero)
+- <u>País<u>: País del cliente. (Texto alfanúmerico)
 
 # Sistema de Gestión de Bases de Datos (SGBD) 
 

@@ -1,0 +1,87 @@
+https://github.com/Jessica1842553/MCDbdr2025
+
+Describir una base de datos y sus relaciones de manera no estructurada, agregar el tipo de dato que supones tendra cada uno de sus atributos.
+
+https://github.com/Pedropicapapa5/MCD-BDR2025
+https://github.com/Sonia1895/MCD_BDR
+
+Investigar diferentes SGBD
+
+software que permite administrar una base de datos. Proporciona el método de organización necesario para el almacenamiento y recuperación flexible de grandes cantidades de datos. Esto significa que mediante este programa se puede utilizar, configurar y extraer información almacenada.
+
+ «Sistema de gestion de base de datos». Wikipedia, The Free Encyclopedia. https://es.wikipedia.org/wiki/Sistema_de_gesti%C3%B3n_de_bases_de_datos
+
+«Introducción al sistema gestor de base de datos (SGBD)». IONOS Digitalguide. https://www.ionos.mx/digitalguide/hosting/cuestiones-tecnicas/sistema-gestor-de-base-de-datos-sgbd/#c221916 
+
+«DuckDB». Wikipedia, The Free Encyclopedia. https://en.wikipedia.org/wiki/DuckDB
+
+«SQL introduction». DuckDB. https://duckdb.org/docs/stable/sql/introduction.html
+
+# Cine/Plataforma de Streaming como BD no estructurada
+
+1. **Guiones de peliculas y series:**
+    Texto libre con diálogos, descripciones, subtítulos.  
+    Contiene: Diálogos, instrucciones de escena, notas creativas.
+2. **Videos y material audiovisual:**
+    Archivos multimedia.  
+    Contiene: Tomas sin editar, escenas, entrevistas, grabaciones detrás de cámaras.
+3. **Fotografías:**
+    Imágenes digitales.  
+    Contiene: Fotos de producción, fotos promocionales, material para prensa.
+4. **Grabaciones de audio:**
+    Archivos de audio, música.  
+    Contiene: Comentarios en el set, pistas musicales.
+
+Atención Médica como BD no estructurada: 
+
+Notas clínicas y reportes médicos:
+Texto libre con observaciones, síntomas, diagnósticos, evolución, tratamientos, y comentarios de médicos y enfermeros.
+
+Grabaciones de audio:
+Entrevistas, dictados o llamadas con pacientes que pueden contener información valiosa sobre el estado de salud o adherencia al tratamiento.
+
+Imágenes médicas:
+Radiografías, resonancias, ecografías y otras imágenes que muestran condiciones físicas no fácilmente cuantificables en datos tabulares.
+
+Videos clínicos:
+Grabaciones de procedimientos o exámenes físicos que aportan información adicional sobre la condición del paciente.
+
+Mensajes y chats internos:
+Comunicaciones entre profesionales de salud sobre el estado del paciente, coordinación de cuidados o decisiones clínicas.
+
+Esquema:
+
+1. Recolección de datos
+Captura de notas clínicas, reportes, mensajes internos (texto libre).
+
+Grabación y almacenamiento de audios clínicos (entrevistas, dictados).
+
+Recolección de imágenes médicas (radiografías, resonancias).
+
+Almacenamiento de videos clínicos y comunicaciones.
+
+2. Preprocesamiento
+Texto:
+
+Limpieza (eliminar errores, abreviaturas).
+
+Audio:
+
+Transcripción automática a texto.
+
+Filtrado y limpieza de transcripciones.
+
+Imágenes:
+
+Etiquetado correcto.
+
+Características relevantes (anomalías, patrones).
+
+3. Almacenamiento y estructuración
+
+Integración con datos estructurados del paciente (signos vitales, historial médico).
+
+5. Implementación y visualización
+Despliegue de modelo en plataforma clínica para alertas tempranas.
+
+Dashboards para médicos con predicciones, riesgos y recomendaciones.
