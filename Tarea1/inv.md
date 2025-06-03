@@ -1,7 +1,8 @@
 # BD no estructurada - Tienda en línea: 
 
 **Base de datos para una tienda en línea.**  
-La base de datos contiene información de ventas de una tienda, cada vez que un cliente hace un pedido, se genera un registro con los productos comprados, cantidades, descuentos aplicados, ganancias obtenidas, y detalles de envío. El pedido tiene un identificador único, está asociado a un cliente, y se despacha en una fecha determinada.
+La base de datos contiene información de ventas de una tienda, cada vez que un cliente hace un pedido, se genera un registro con los productos comprados, cantidades, descuentos aplicados, ganancias obtenidas, y detalles de envío.  
+El pedido tiene un identificador único, está asociado a un cliente, y se envía en una fecha determinada.
 
 Los productos tienen un nombre, categoría y subcategoría. Los clientes están clasificados en segmentos y tienen una ubicación asociada (ciudad, estado, código postal y país).
 
@@ -20,7 +21,7 @@ Los productos tienen un nombre, categoría y subcategoría. Los clientes están 
 - Cada producto tiene una categoría y subcategoría.
 - Los datos de ubicación están incluidos con cada pedido.
 
-#### Base de datos obtenidos en [Kaggle](https://www.kaggle.com/datasets/jacopoferretti/superstore-dataset)
+#### Base de datos obtenida en [Kaggle](https://www.kaggle.com/datasets/jacopoferretti/superstore-dataset)
 
 ##
 
