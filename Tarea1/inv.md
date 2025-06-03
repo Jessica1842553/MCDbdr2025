@@ -5,13 +5,13 @@ La base/conjunto de datos a utilizar contiene transacciones ocurridas entre 2009
 
 **_- Características clave:_**  
 - <u>Factura</u>: Número de factura de venta. (Texto alfanúmerico)
-- <u>Código de producto<u>: Identificador único del producto. (Texto alfanúmerico)
-- <u>Descripción<u>: Descripción del producto. (Texto)
-- <u>Cantidad<u>: Número de unidades vendidas. (Entero)
-- <u>Precio unitario<u>: Precio por unidad en libras esterlinas. (Número decimal)
-- <u>Fecha<u>: Fecha de la transacción. (Fecha y hora)
-- <u>Código de cliente<u>: Identificador del cliente. (Entero)
-- <u>País<u>: País del cliente. (Texto alfanúmerico)
+- <u>Código de producto</u>: Identificador único del producto. (Texto alfanúmerico)
+- <u>Descripción</u>: Descripción del producto. (Texto)
+- <u>Cantidad</u>: Número de unidades vendidas. (Entero)
+- <u>Precio unitario</u>: Precio por unidad en libras esterlinas. (Número decimal)
+- <u>Fecha</u>: Fecha de la transacción. (Fecha y hora)
+- <u>Código de cliente</u>: Identificador del cliente. (Entero)
+- <u>País</u>: País del cliente. (Texto alfanúmerico)
 
 # Sistema de Gestión de Bases de Datos (SGBD) 
 
