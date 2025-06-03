@@ -20,6 +20,10 @@ Los productos tienen un nombre, categoría y subcategoría. Los clientes están 
 - Cada producto tiene una categoría y subcategoría.
 - Los datos de ubicación están incluidos con cada pedido.
 
+#### Base de datos obtenidos en [Kaggle](https://www.kaggle.com/datasets/jacopoferretti/superstore-dataset)
+
+##
+
 # Sistema de Gestión de Bases de Datos (SGBD) 
 
 **_Software que permite administrar una base de datos._**
