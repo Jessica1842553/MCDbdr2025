@@ -16,34 +16,3 @@ SI
 NO
 OKAY
 
-- Clientes
-
-CustomerID (PK)
-
-Country
-
-Facturas
-
-- InvoiceNo (PK)
-
-InvoiceDate
-
-CustomerID (FK)
-
-Productos
-
-- StockCode (PK)
-
-Description
-
-UnitPrice
-
-DetalleFactura
-
-- InvoiceNo (FK)
-
-StockCode (FK)
-
-Quantity
-
-(PK: InvoiceNo + StockCode)
