@@ -8,7 +8,7 @@
 1. si
 3. no
 
-_cursiva_, **negrita**, <u>hola<u>
+_cursiva_, **negrita**, <u>hola<u>.
 
 Agregar link [google](https://google.com)
 
