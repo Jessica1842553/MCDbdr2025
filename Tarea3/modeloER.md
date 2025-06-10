@@ -13,3 +13,6 @@
 
  - **Uno a muchos:** Cliente - Pedido, Pedido - Detelle Pedido, Producto - Detalle Pedido.
  - **Muchos a muchos:** Pedido - Producto. 
+
+ ## Diagrama Relacional
+ 
