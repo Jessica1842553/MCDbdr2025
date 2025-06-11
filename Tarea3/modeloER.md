@@ -23,8 +23,7 @@
 1. **Selección (σ): Filtrar pedidos con beneficio positivo.**  
 **_Operación:_** σ(Ganancia > 0)(Pedidos)  
 Esta operación selecciona todas las filas de la relación (Pedidos) donde el valor de la columna (Ganancia) es mayor que cero.  
-
-    Obtener un subconjunto de pedidos que generaron ganancias, excluyendo aquellos que resultaron en pérdidas.
+Obtener un subconjunto de pedidos que generaron ganancias, excluyendo aquellos que resultaron en pérdidas.
 
 2. **Proyección + Selección: Listar los nombres de los clientes que hicieron pedidos en el estado de "California"**  
 **_Operación:_** π(Nombre Cliente)(σ(Estado = 'California')(Pedidos))  
