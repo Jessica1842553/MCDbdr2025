@@ -16,4 +16,4 @@
 
  ## Diagrama Relacional
  
- ![Diagrama E-R](Tarea3/DiagramaE-R.drawio.png)
+ ![Diagrama E-R](DiagramaE-R.drawio.png)
