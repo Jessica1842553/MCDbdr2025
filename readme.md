@@ -7,5 +7,6 @@ Repositorio para la matería BDR.
 - [Tarea 1](Tarea1/inv.md)
 - [Tarea 2](Tarea2/EV2-BDTO-JLHB.drawio.png)
 - [Tarea 3](Tarea3/modeloER.md)
-- [Practica 4](class4.sql)
+- [Practica 4](TiendaOl.sql)
+- [Practica en Clase](class4.sql)
 - [Notas Clase](PracticaC/inv.md)
