@@ -38,7 +38,7 @@ CREATE TABLE Pedido (
     	ON DELETE CASCADE
 ); 
 
-# 5. Crear tabla DetallePedido (relación entre pedidos y productos)
+# 5. Crear tabla DetallePedido -- relación entre pedidos y productos
 CREATE TABLE DetallePedido (
     detallepedID INT AUTO_INCREMENT PRIMARY KEY,
     ventas DECIMAL(10,2),
@@ -66,7 +66,7 @@ SHOW TABLES;
 INSERT INTO Cliente VALUES
 ('CG-12520', 'Claire Gute', 'Consumer', 'United States', 'Henderson', 'Kentucky', '42420', 'South'),
 ('DV-13045', 'Darrin Van Huff', 'Corporate', 'United States', 'Fort Lauderdale', 'Florida', '33311', 'South'),
-('SO-20335', 'Sean O\'Donnell', 'Home Office', 'United States', 'Westmoreland', 'New Hampshire', '03467', 'East');
+('SO-20335', 'Sean ODonnell', 'Home Office', 'United States', 'Westmoreland', 'New Hampshire', '03467', 'East');
 
 SELECT * FROM Cliente;
 
