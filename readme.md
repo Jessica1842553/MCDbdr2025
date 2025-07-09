@@ -11,3 +11,4 @@ Repositorio para la matería BDR.
 ---
 - [Practica en clase](class4.sql)
 - [Notas de clase](PracticaC/inv.md)
+- [Tienda en linea - Exportación](TiendaOl_exit.sql)
