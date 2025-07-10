@@ -1,4 +1,4 @@
-# Consultas
+# Consultas - Tienda en línea
 
 ### Funciones de agregación realizadas en la base de datos con resultados: 
 
@@ -57,7 +57,7 @@ LIMIT 1;
     - **Resultado (Tipo de envio, Frecuencia):** Standard Class, 15.
 
 - **(e) _Informe_**  
-    - Detalles:  
+    - **Detalles:**  
     Durante el análisis de la base de datos, se obtuvieron resultados interesantes que permiten entender mejor el comportamiento de ventas y pedidos:  
         - Promedio de días entre pedido y envío:
         Se calculó la media del tiempo que transcurre desde la fecha del pedido hasta la fecha de envío, proporcionando un indicador de logística.
@@ -71,13 +71,14 @@ LIMIT 1;
         - Tipo de envío más usado:
         La moda del tipo de envío revela la preferencia predominante de envío en los pedidos.  
 
-    - Recomendaciones:
+    - **Recomendaciones:**
         - División de consultas:
         Una estrategia fue descomponer los problemas en partes simples y legibles, probando resultados parciales antes de construir la consulta completa. 
+
         - Estructura relacional de los datos:
         Al trabajar con varias tablas relacionadas (clientes, pedidos, productos, etc.), fue necesario aplicar con atencion los JOIN para evitar datos incorrectos.
         - Consultas SQL:
         Investigar el manejo de subconsultas, variables de usuario y agrupamientos complejos para encontrar soluciones factibles.
 
 ---
-#### Script - Estadísticos: [Tarea 6](t6_fagreg.sql)
+#### Estadísticos - Script exportado: [Tarea 6~Est](t6_fagreg.sql)
