@@ -9,7 +9,7 @@ FROM Pedido;
     - **Resultado:** 33.9429
 
 - **(b)**  
-    - **_Minimo:_** Producto con la menor venta en DetallePedido  
+    - **_Mínimo:_** Producto con la menor venta en DetallePedido.  
 SELECT pr.p_nombre, dp.ventas  
 FROM Producto pr  
 JOIN DetallePedido dp ON pr.productoID = dp.productoID  
@@ -19,7 +19,7 @@ WHERE dp.ventas = (
 
         - **Resultado (Producto, Venta):** iPhone Case, 10.48
 
-    - **_Maximo:_** Ciudad con la mayor ganancia maxima.  
+    - **_Máximo:_** Ciudad con la mayor ganancia máxima.  
 SELECT ciudad, MaxGanancia  
 FROM (  
     SELECT   
@@ -33,7 +33,7 @@ FROM (
 ORDER BY MaxGanancia DESC  
 LIMIT 1;
 
-        - **Resultado (Ciudad, Ganancia Maxima):** Erie, 5482.24
+        - **Resultado (Ciudad, Ganancia Máxima):** Erie, 5482.24
 
 - **(c) _Q1:_** Calcular el primer cuartil de la columna ganancia en DetallePedido.  
 SET @row := -1;  
@@ -47,14 +47,14 @@ WHERE fila = FLOOR((SELECT COUNT(*) FROM DetallePedido) * 0.25);
 
     - **Resultado:** 9.56
 
-- **(d) _MODA:_** Tipo de envio mas usado.  
+- **(d) _Moda:_** Tipo de envío mas usado.  
 SELECT tipo_envio, COUNT(*) AS frecuencia  
 FROM Pedido  
 GROUP BY tipo_envio  
 ORDER BY frecuencia DESC  
 LIMIT 1;
 
-    - **Resultado (Tipo de envio, Frecuencia):** Standard Class, 15.
+    - **Resultado (Tipo de envío, Frecuencia):** Standard Class, 15.
 
 - **(e) _Informe_**  
     - **Detalles:**  
