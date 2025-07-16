@@ -26,28 +26,13 @@ Productos ↔ Categorías: Cada producto pertenece a una categoría específica.
 
 Pedidos ↔ Ubicación: Cada pedido tiene una ubicación asociada.
 
-- Ventas por cliente
-CREATE VIEW resumen_ventas_cliente AS
-SELECT 
-  c.clienteID,
-  c.c_nombre,
-  SUM(d.monto_venta) AS total_ventas,
-  SUM(d.utilidad) AS total_utilidad
-FROM Cliente c
-JOIN Pedido p ON c.clienteID = p.clienteID
-JOIN DetallePedido d ON p.pedidoID = d.pedidoID
-GROUP BY c.clienteID, c.c_nombre;
+2. delete
+DELETE FROM Pedido WHERE pedidoID = 'CA-2017-152156';
+SELECT * FROM BitDelPedido;
 
- - Ventas por producto
- CREATE VIEW resumen_ventas_producto AS
-SELECT 
-  pr.productoID,
-  pr.nombre_producto,
-  SUM(d.monto_venta) AS total_ventas,
-  SUM(d.utilidad) AS total_utilidad,
-  SUM(d.cantidad) AS total_unidades
-FROM Producto pr
-JOIN DetallePedido d ON pr.productoID = d.productoID
-GROUP BY pr.productoID, pr.nombre_producto;
-
+1. update
+UPDATE Pedido
+SET tipo_envio = 'First Class', ped_envio = '2017-11-12'
+WHERE pedidoID = 'CA-2017-152156';
+SELECT * FROM BitUpdPed;
 
