@@ -9,7 +9,7 @@ Repositorio para la matería BDR.
 - [Tarea 3](Tarea3/modeloER.md)
 - [Tarea 4](TiendaOl.sql)
 - [Tarea 5](Tarea5/inf.md)
-- [Tarea 6](Tarea6/consultas.md)
+- [Tarea 6 y 7](Tarea6-7/cons_subc.md)
 ---
 - [Practica en clase](class4.sql)
 - [Notas de clase](PracticaC/inv.md)

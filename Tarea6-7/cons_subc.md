@@ -1,4 +1,4 @@
-# Consultas - Tienda en línea
+# Consultas - Tienda en línea _(Tarea 6)_
 
 ### Funciones de agregación realizadas en la base de datos con resultados: 
 
@@ -81,4 +81,24 @@ LIMIT 1;
         Investigar el manejo de subconsultas, variables de usuario y agrupamientos complejos para encontrar soluciones factibles.
 
 ---
-#### Estadísticos - Script exportado: [Tarea 6~Est](t6_fagreg.sql)
+# Subconsultas - Tienda en línea _(Tarea 7)_
+
+Se realizaron ajustes utilizando subconsultas enfocados para facilitar la manipulacion de la base de datos:  
+
+1. Agregando campos: año_pedido y mes_pedido.  
+    - Añadir estos campos mejora la eficiencia de las consultas por tiempo.
+    - Evita tener que usar YEAR() y MONTH() cada vez que se requiera un reporte.
+    - Ejemplo de Ventas por año: permite identificar años con mayor volumen de pedidos.
+    - Ejemplo de Mejores productos por mes y año: permite detectar los productos más vendidos por período.
+
+2. Productos con mayores ganancias al promedio general.
+    - Encuentra productos destacados en términos de rentabilidad.
+
+3. Categoría con más ingresos totales
+    - Identifica la categoría más fuerte en ventas.
+
+4. Códigos postales. 
+    - Se modifico los codigos postales de VARCHAR a INT para descartar problemas de datos incoherentes.
+
+---
+#### Estadísticos - Script exportado: [Tarea 6~Est](t6_fagreg.sql) || Subconsultas - Script exportado: [Tarea 7~Subc](t7_subc.sql)
