@@ -2,6 +2,7 @@
 
 USE tienda;
 
+-- VISTAS
 -- a) JOIN
 
 -- DROP VIEW IF EXISTS vista_mp_mya;
@@ -84,8 +85,6 @@ ORDER BY total_utilidad DESC;
 SELECT * FROM vista_pr_ganancia;
 
 -- DISPARADOR
-
-
 -- 1. UPDATE: Registra cambios en el tipo de envío o fecha de envío en la tabla Pedido.
 -- DROP TABLE IF EXISTS BitUpdPed;
 CREATE TABLE BitUpdPed (
@@ -99,7 +98,7 @@ CREATE TABLE BitUpdPed (
 
 DROP TRIGGER IF EXISTS trg_upd_pedido;
 
-DELIMITER $$
+DELIMITER //
 
 CREATE TRIGGER trg_upd_pedido
 AFTER UPDATE ON Pedido
@@ -114,7 +113,7 @@ BEGIN
         INSERT INTO BitUpdPed(pedidoID, fecha_actualizacion, campo_modificado, valor_anterior, valor_nuevo)
         VALUES (OLD.pedidoID, NOW(), 'ped_envio', CAST(OLD.ped_envio AS CHAR), CAST(NEW.ped_envio AS CHAR));
     END IF;
-END$$
+END//
 
 DELIMITER ;
 
@@ -131,7 +130,7 @@ CREATE TABLE BitDelPedido (
 
 -- DROP TRIGGER IF EXISTS trg_del_pedido;
 
-DELIMITER $$
+DELIMITER //
 
 CREATE TRIGGER trg_del_pedido
 AFTER DELETE ON Pedido
@@ -139,7 +138,7 @@ FOR EACH ROW
 BEGIN
     INSERT INTO BitDelPedido (pedidoID, fecha_eliminacion, clienteID, motivo)
     VALUES (OLD.pedidoID, NOW(), OLD.clienteID, 'Eliminación de pedido registrado');
-END$$
+END//
 
 DELIMITER ;
 
