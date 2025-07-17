@@ -15,7 +15,7 @@
     - Descripción: Lista todos los productos y sus ventas.
     - Tablas: Producto, DetallePedido.
     - Detectar productos que nunca se han vendido, incluye _LEFT JOIN_ para que todos los productos aparezcan, aunque no tengan detalles de pedido.
-        1. Todos los productos existentes (aunque nunca se hayan vendido).
+        1. Muestra todos los productos existentes.
         2. Si el producto fue vendido al menos una vez, muestra:  
         Cuánto se vendió (ventas), cuántas unidades (cantidad) y cuánto se ganó (ganancia).
         3. Si el producto nunca fue vendido, los campos ventas, cantidad, y ganancia serán NULL.
@@ -28,7 +28,7 @@
         1. Reúne todos los detalles de venta (DetallePedido).
         2. Agrega la información del producto vendido (Producto) — incluso si el producto ya no existe.
         3. Incluye información del pedido principal (Pedido): fecha y tipo de envío.
-        4. También incluye datos del cliente que hizo la compra (Cliente)
+        4. También incluye datos del cliente que hizo la compra (Cliente).
 
 - **(d) _Subconsulta:_**
     - Nombre: vista_pr_ganancia
@@ -40,29 +40,30 @@
         3. Calcula la ganancia total de cada producto (suma de todas sus ventas).
         4. Calcula el promedio general de ganancia por línea de pedido.
         5. Filtra los productos: muestra aquellos cuya suma de ganancias es mayor a ese promedio y ordena los productos de manera descendente.
-##
 
-### Disparador (TRIGGER) - Tienda en línea
+
+## Disparador (TRIGGER)
 
 Un disparador es un bloque de código SQL que se ejecuta automáticamente cuando ocurre un evento en una tabla, como:
-- _INSERT:_ cuando se inserta un nuevo registro.
-- _UPDATE:_ cuando se actualiza un valor.
-- _DELETE:_ cuando se elimina un registro.
+- **_Insert:_** Cuando se inserta un nuevo registro.
+- **_Update:_** Cuando se actualiza un valor.
+- **_Delete:_** Cuando se elimina un registro.
 
-La utilidad principal de un trigger es mejorar la gestión de la base de datos, ya que no requieren que un usuario los ejecute.  
-Los triggers pueden prevenir errores en los datos, modificar valores de una vista, sincronizar tablas, entre otros. [1](https://es.wikipedia.org/wiki/Trigger_(base_de_datos)#:~:text=Un%20trigger%20o%20disparador%20es,las%20que%20se%20encuentra%20asociado.)
+La utilidad principal de un trigger es mejorar la gestión de la base de datos, ya que no requieren que un usuario los ejecute. Además, pueden prevenir errores en los datos, modificar valores de una vista, sincronizar tablas, entre otros. [1](https://es.wikipedia.org/wiki/Trigger_(base_de_datos)#:~:text=Un%20trigger%20o%20disparador%20es,las%20que%20se%20encuentra%20asociado.)
 
-1. _UPDATE:_ Registra cambios en el tipo de envío o fecha de envío en la tabla Pedido.
+### TRIGGER realizados en la base de datos - Tienda en línea
+
+1. **_UPDATE:_** Registra cambios en el tipo de envío o fecha de envío en la tabla Pedido.
 
     - Se activa después de una actualización en la tabla Pedido.
     - Compara el valor antiguo y nuevo de los campos tipo_envio y ped_envio.  
     Si alguno cambió, inserta un registro en la tabla BitUpdPed con:
-        - pedidoID
-        - Fecha y hora de la actualización
-        - Campo modificado
-        - Valor anterior y Valor nuevo
+        - pedidoID.
+        - Fecha y hora de la actualización.
+        - Campo modificado.
+        - Valor anterior y Valor nuevo.
 
-2. _DELETE:_ Registrar al eliminar un pedido.
+2. **_DELETE:_** Registrar al eliminar un pedido.
 
     - Se ejecuta después de eliminar un pedido en la tabla Pedido.  
         Guarda:
@@ -72,7 +73,7 @@ Los triggers pueden prevenir errores en los datos, modificar valores de una vist
         4. Un mensaje del proceso.
 
 ---
-#### Vistas y Disparadores - Script: [Tarea 8]
-
+#### Vistas y Disparadores - Script: [Tarea 8](View_Trg.sql)
+---
 ### **Referencias**
 [<sup>[1]</sup>](https://es.wikipedia.org/wiki/Trigger_(base_de_datos)#:~:text=Un%20trigger%20o%20disparador%20es,las%20que%20se%20encuentra%20asociado.)  «Trigger (base de datos)». Wikipedia, The Free Encyclopedia.
