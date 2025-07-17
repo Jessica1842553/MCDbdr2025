@@ -12,6 +12,6 @@ Repositorio para la matería BDR.
 - [Tarea 6 y 7](Tarea6-7/cons_subc.md)
 - [Tarea 8](Tarea8/cvw.md)
 ---
-- [Practica en clase](class4.sql)
+- [Practica en clase](Script/class4.sql)
 - [Notas de clase](PracticaC/inv.md)
-- [Tienda en linea - Exportación](TiendaOl_exit.sql)
+- [Tienda en linea - Exportación](Script/TiendaOl_exit.sql)
