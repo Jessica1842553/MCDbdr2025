@@ -10,6 +10,7 @@ Repositorio para la matería BDR.
 - [Tarea 4](TiendaOl.sql)
 - [Tarea 5](Tarea5/inf.md)
 - [Tarea 6 y 7](Tarea6-7/cons_subc.md)
+- [Tarea 8](Tarea8/cvw.md)
 ---
 - [Practica en clase](class4.sql)
 - [Notas de clase](PracticaC/inv.md)
