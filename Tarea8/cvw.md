@@ -60,7 +60,6 @@ La utilidad principal de un trigger es mejorar la gestión de la base de datos, 
     Si alguno cambió, inserta un registro en la tabla BitUpdPed con:
         - pedidoID.
         - Fecha y hora de la actualización.
-        - Campo modificado.
         - Valor anterior y Valor nuevo.
 
 2. **_DELETE:_** Registrar al eliminar un pedido.
