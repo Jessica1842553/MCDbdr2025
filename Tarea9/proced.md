@@ -67,12 +67,12 @@ Esta función cuenta cuántos productos únicos se han vendido por categoría.
     FROM producto  
     WHERE categoria = cat;  
     - Se ejecuta una consulta que cuenta cuántas filas de la tabla producto tienen la categoría igual al parámetro cat.
-    - El resultado se guarda en la variable total.
+    - El resultado se guarda en la variable _total_.
 
 4. Final función:  
     RETURN total;  
     END $$  
-    - Devolvemos el valor guardado en total.
+    - Devolvemos el valor guardado en _total_.
     - Fin de la función.  
 
 **_Como usarlo:_**  
