@@ -12,6 +12,7 @@ Repositorio para la matería BDR.
 - [Tarea 6 y 7](Tarea6-7/cons_subc.md)
 - [Tarea 8](Tarea8/cvw.md)
 - [Tarea 9](Tarea9/proced.md)
+- [PIA](PIA/PIA.pdf)
 ---
 - [Practica en clase](Scripts/class4.sql)
 - [Notas de clase](PracticaC/inv.md)
